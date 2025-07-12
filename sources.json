@@ -1,0 +1,23 @@
+{
+    "arxiv_categories": ["cs.AI", "cs.LG", "cs.CL"],
+    "tech_blogs": [
+      {
+        "name": "OpenAI Blog",
+        "url": "openai.com/blog"
+      },
+      {
+        "name": "Google AI Blog",
+        "url": "ai.googleblog.com"
+      },
+      {
+          "name": "Hugging Face Blog",
+          "url": "huggingface.co/blog"
+      }
+    ],
+    "news_sites": [
+      {
+        "name": "TechCrunch AI",
+        "url": "techcrunch.com/category/artificial-intelligence/"
+      }
+    ]
+  }
