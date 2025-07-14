@@ -17,8 +17,8 @@ AI焦点速递是一个基于MCP（Model Context Protocol）的智能情报收�
 {
   "mcpServers": {
     "ai-focus-express": {
-      "command": "python",
-      "args": ["app.py"],
+      "command": "uvx",
+      "args": ["ai-focus-express-mcp"],
       "env": {
         "PYTHONPATH": ".",
         "GRADIO_SERVER_NAME": "0.0.0.0",
