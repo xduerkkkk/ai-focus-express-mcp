@@ -2,14 +2,14 @@
 
 ## 服务介绍
 
-AI焦点速递是一个基于MCP（Model Context Protocol）的智能情报收集工具，能够从多个权威信源实时获取AI领域的最新动态，包括学术论文、技术博客和行业新闻。
+AI焦点速递是一个基于MCP（Model Context Protocol）的智能情报收集工具，能够从多个权威信源实时获取AI领域的最新动态，包括学术论文、技术博客和行业新闻。该服务通过关键词搜索，自动从ArXiv、顶级AI公司博客和科技媒体网站收集最新信息，并生成结构化的情报报告。
 
 ## 功能特性
 
 - 🔍 **多源搜索**: 支持ArXiv学术论文、顶级公司技术博客、行业新闻网站
 - ⏰ **时间筛选**: 支持过去24小时、一周、一月的动态筛选
-- �� **智能汇总**: 自动生成结构化的情报报告
-- �� **精准匹配**: 基于关键词的精准内容匹配
+- 📊 **智能汇总**: 自动生成结构化的情报报告
+- 🎯 **精准匹配**: 基于关键词的精准内容匹配
 
 ## 服务配置
 
@@ -31,15 +31,15 @@ AI焦点速递是一个基于MCP（Model Context Protocol）的智能情报收�
 
 ## 环境变量配置
 
-- `PYTHONPATH`: Python模块搜索路径
-- `GRADIO_SERVER_NAME`: Gradio服务器地址
-- `GRADIO_SERVER_PORT`: Gradio服务器端口
+- `PYTHONPATH`: Python模块搜索路径，设置为当前目录
+- `GRADIO_SERVER_NAME`: Gradio服务器地址，设置为0.0.0.0以支持容器部署
+- `GRADIO_SERVER_PORT`: Gradio服务器端口，默认7860
 
 ## 使用方法
 
 1. 启动服务：
    ```bash
-   python app.py
+   uvx ai-focus-express-mcp
    ```
 
 2. 访问Web界面：
